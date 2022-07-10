@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    background-color: rgba(255, 255, 255, 0.7);
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.motivation {
+    padding-top: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Unknown.png);
+    background-repeat: no-repeat;
+    background-position-x: 70px;
+    background-position-y: 240px;
+}
+
+.motivation > .quote {
+    font-size: 40px;
+    font-weight: 600;
+    min-width: 200px;
+    z-index: 150;
+} 
+
+.motivation > .quote > span {
+    color: #F79901;
+}
+
+.motivation > .bg {
+    top: 0px;
+    right: 0px;
+    width: 720px;
+    height: 730px;
+    position: absolute;
+    background-image: linear-gradient(135deg, #c1c1c1 0% 14%, #ffbb48 95%);
+}
+
+.motivation > .pic {
+    z-index: 100;
+}
+
+header > .logo {
+    font-size: 40px;
+    font-weight: 600;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(140deg, #c1c1c1 0% 50%, #ffbb48 100%);
+}
+
+header > .motivation > .quote > .pic > .picture {
+    width: 500px;
+    padding-right: 50px;
+
+}
+header > .motivation > .quote {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+header > .motivation > .quote > .text {
+    background-image: url(Unknown.png);
+    background-repeat: no-repeat;
+    font-size: 40px;
+    min-height: 500px;
+    padding: 150px 70px;
+}
+
+header > .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+}    
+
+header > .navigation > .point.-active {
+    color: #F79901;
+}
+
+header > .navigation > .button {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    line-height: 35px;
+    width: 130px;
+    height: 35px;
+    background-color:#F79901;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+header > .navigation > .button > .arrow {
+    margin-left: 10px;
+}
+
+.dream {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.dream > .quote2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dream > .quote2 > span {
+    color: #F79901;
+}
+
+.dream > .line {
+    border: 2px solid #F79901;
+    width: 90px;
+    align-self: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.dream > .features {
+    display: flex;
+    max-width: 1001px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.dream > .features > .card {
+    background-color: #fff;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin: 40px 40px;
+    box-shadow: 15px 15px 15px 15px rgb(247 153 1 / 10%);;
+}
+
+.dream > .dots {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 105px;
+    position: absolute;
+    right: 180px;
+    top: 135px;
+
+}
+
+.dream > .dots > .dot {
+    background-color: #F79901;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F2F2F2;
+    align-items: center;
+}
+
+.questions > .about_us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.questions > .about_us > .text {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.questions > .about_us > .text > span {
+    color: #F79901;
+}
+
+.questions > .about_us > .subtext {
+    text-align: center;
+    color: #F79901;
+    padding-top: 13px;
+}
+
+
+.questions > .introduction {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(247 153 1 / 10%);
+}
+
+.questions > .introduction > .card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px 10px 5px 5px;
+}
+
+.questions > .introduction > .card > .text {
+    line-height: 134px;
+    padding-left: 24px;
+    font-weight: 600;
+}
+r
+.questions > .introduction > .card > .pic > .icon {
+    padding: 24px 24px;
+}
+
+.questions > .introduction > .description {
+    padding: 24px 24px;
+    font-weight: 400;
+    margin-top: 2px;
+    background-color: #fff;
+    border-radius: 5px 5px 10px 10px;
+}
+
+.adv {
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #F2F2F2;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.adv > .quality {
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(135deg, #c1c1c1 0% 14%, #ffbb48 95%);
+}
+
+.adv > .quality > .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 45px;
+}
+
+.adv > .quality > .cards > .blok {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    margin-top: 2px;
+    padding: 24px 24px;
+    align-self: center;
+    min-width: 400px;
+}
+
+.adv > .quality > .cards > .blok > .text {
+    display: flex;
+}
+
+.adv > .quality > .cards > .blok > .text > .numb {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.adv > .quality > .cards > .blok > .text > .description {
+    padding-left: 10px;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.adv > .quality > .cards > .blok > .subtext {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.questions2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-color: #F2F2F2;
+}
+
+.questions2 > .about_us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.questions2 > .about_us > .text {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.questions2 > .about_us > .text > span {
+    color: #F79901;
+}
+
+.questions2 > .about_us > .subtext {
+    text-align: center;
+    color: #F79901;
+    padding-top: 13px;
+}
+
+.questions2 > .advantage {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    align-self: center;
+}
+
+.questions2 > .advantage > .block {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 45px;
+}
+
+.questions2 > .advantage > .block >.first {
+    display: flex;
+    font-weight:600 ;
+    font-size: 20px;
+}
+
+.questions2 > .advantage > .block > .first > .letter {
+    background-color: #828282;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.questions2 > .advantage > .block > .first > .text {
+    margin-left: 10px;
+    line-height: 32px;
+}
+
+.questions2 > .advantage > .block >.second {
+    display: flex;
+    font-weight:400;
+    font-size: 14px;
+}
+
+.questions2 > .advantage > .block > .second > .letter {
+    background-color: #F79901;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+}
+
+.questions2 > .advantage > .block > .second > .list {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #232120;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer > .info {
+    display: flex;
+    padding-bottom: 45px;
+}
+
+footer > .info > .first {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+} 
+
+footer > .info > .first > .logo {
+    margin-bottom: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(135deg, #c1c1c1 0% 14%, #ffbb48 55%);
+}
+
+footer > .info > .first > .contacts{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+footer > .info > .first > .contacts > .number {
+    margin-bottom: 10px;
+}
+
+
+footer > .info > .second {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+} 
+
+footer > .info > .second > .list {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer > .info > .second > .learn_more {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+footer > .info > .second > .list > .text {
+    margin-bottom: 12px;
+}
+
+
+footer > .info > .third {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+} 
+
+footer > .info > .third > .social {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+footer > .info > .third > .list {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer > .info > .third > .list > .media {
+    margin-bottom: 12px;
+}
+
+
+footer > .info > .fourth {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > .info > .fourth > .downloads {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer > .info > .fourth > .blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > .info > .fourth > .blocks > .block{
+    display: flex;
+    border: 1px solid #fff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+footer > .info > .fourth > .blocks > .block > .text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer > .line {
+    border: 1px solid #fff;
+    width: 1300px;
+    margin-bottom: 15px;
+}
+
+
+
+footer > .underline {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+footer > .underline > .company {
+    display: flex;
+}
+
+footer > .underline > .navig{
+    display: flex;
+    margin-left: 200px;
+}
+
+footer > .underline > .navig > .point {
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+    header {
+        background-color: #fff;
+    }
+    
+    .motivation > .pic > .picture {
+        max-width: 300px;
+    }
+
+    .adv > .quality > .cards > .blok {
+        padding: 0px;
+    }
+    
+    .motivation > .bg {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .dream > .features {
+        justify-content: center;
+        max-width: 700px;
+    }
+
+    .dream > .dots {
+        right: 110px;
+    }
+
+    .questions > .introduction > .blok {
+        min-width: 800px;
+    }
+
+    .adv {
+        background-image: linear-gradient(135deg, #c1c1c1 0% 14%, #ffbb48 95%);
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .adv > .quality > .pic{
+        background-color: none;
+    }
+
+    .adv > .quality > .pic > .picture{
+        width: 400px;
+    }
+
+    .adv > .quality > .cards {
+        padding: 0;
+    }
+
+    .adv > .quality > .cards > .blok {
+        border-radius: 12px;
+        margin-top: 0px;
+    }
+    
+    .questions2 > .advantage {
+        max-width: 720px;
+    }
+
+    footer > .line {
+        width: 770px;
+    }
+ 
+
+}
+
+@media screen and (max-width: 630px) {
+    header > .navigation {
+        display: flex;
+        min-width: 200px;
+    }
+
+    .dream > .dots {
+        right: 30px;
+    }
+    .questions > .introduction > .blok {
+        min-width: 630px;
+    }
+
+    footer > .line {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .motivation {
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .motivation > .quote {
+        text-align: center;
+        padding: 80px 0px;
+    }
+
+    .motivation > .bg {
+        height: 600px;
+    }
+
+    header > .navigation > .point {
+        margin: 0px;
+        display: none;
+    }
+
+    .dream > .dots {
+        max-width: 102px;
+        top: 113px;
+    }
+
+    .questions > .introduction > .blok {
+        min-width: 550px;
+        box-shadow: none;
+    }
+
+    .adv {
+        padding-right: 0px;
+    }
+
+    .adv > .quality {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .adv > .quality > .cards {
+        position: absolute;
+        z-index: 120;
+        width: 100%;
+        top: 300px;
+        padding: 20px 0px;
+        background-image: linear-gradient(135deg, #c1c1c1 0% 14%, #ffbb48 95%);
+    }
+
+    .adv > .quality > .cards > .blok {
+
+        margin-bottom: 1px;
+    }
+
+    .questions2 > .advantage {
+        max-width: 361px;
+    }
+
+    .questions2 > .about_us {
+        margin-top: 375px;
+    }
+
+    footer > .info {
+        flex-direction: column;
+    }
+
+    footer > .info > .second {
+        margin-top: 25px;
+    }
+
+    footer > .info > .second > .learn_more {
+        margin-bottom: 12px;
+    }
+
+    footer > .info > .third {
+        margin-top: 25px;
+    }
+
+    footer > .info > .third > .social {
+        margin-bottom: 12px;
+    }
+
+    footer > .underline {
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 15px;
+        align-self: end;
+    }
+
+    footer > .underline > .navig {
+        margin-left: 0px;
+    }
+    
+    footer > .underline > .navig > .point {
+        margin-right: 0px;
+    }
+
+    footer > .line {
+        width: 360px;
+    }
+}
